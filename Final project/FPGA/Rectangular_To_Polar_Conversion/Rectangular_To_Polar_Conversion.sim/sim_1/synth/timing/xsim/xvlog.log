@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Cheng Hsuan Hong/Desktop/DCIC/Rectangular_To_Polar_Conversion/Rectangular_To_Polar_Conversion.sim/sim_1/synth/timing/xsim/tb_R2P_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module R2P
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Cheng Hsuan Hong/Desktop/DCIC/Rectangular_To_Polar_Conversion/Rectangular_To_Polar_Conversion.srcs/sim_1/new/tb_R2P.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_R2P

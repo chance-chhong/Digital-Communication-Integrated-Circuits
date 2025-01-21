@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"tb_R2P_time_synth.v" \
+"../../../../../Rectangular_To_Polar_Conversion.srcs/sim_1/new/tb_R2P.v" \
+
+# Do not sort compile order
+nosort

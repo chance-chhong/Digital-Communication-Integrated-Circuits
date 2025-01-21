@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Dec 31 00:38:53 2024
+# Process ID: 22288
+# Current directory: C:/Users/Cheng Hsuan Hong/Desktop/DCIC/Rectangular_To_Polar_Conversion/Rectangular_To_Polar_Conversion.runs/synth_1
+# Command line: vivado.exe -log R2P.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source R2P.tcl
+# Log file: C:/Users/Cheng Hsuan Hong/Desktop/DCIC/Rectangular_To_Polar_Conversion/Rectangular_To_Polar_Conversion.runs/synth_1/R2P.vds
+# Journal file: C:/Users/Cheng Hsuan Hong/Desktop/DCIC/Rectangular_To_Polar_Conversion/Rectangular_To_Polar_Conversion.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source R2P.tcl -notrace

@@ -1,0 +1,260 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Dec 31 00:38:53 2024
+# Process ID: 22288
+# Current directory: C:/Users/Cheng Hsuan Hong/Desktop/DCIC/Rectangular_To_Polar_Conversion/Rectangular_To_Polar_Conversion.runs/synth_1
+# Command line: vivado.exe -log R2P.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source R2P.tcl
+# Log file: C:/Users/Cheng Hsuan Hong/Desktop/DCIC/Rectangular_To_Polar_Conversion/Rectangular_To_Polar_Conversion.runs/synth_1/R2P.vds
+# Journal file: C:/Users/Cheng Hsuan Hong/Desktop/DCIC/Rectangular_To_Polar_Conversion/Rectangular_To_Polar_Conversion.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source R2P.tcl -notrace
+Command: synth_design -top R2P -part xc7z020clg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 10716
+WARNING: [Synth 8-2507] parameter declaration becomes local in R2P with formal parameter declaration list [C:/Users/Cheng Hsuan Hong/Desktop/DCIC/Rectangular_To_Polar_Conversion/Rectangular_To_Polar_Conversion.srcs/sources_1/new/R2P.v:236]
+WARNING: [Synth 8-2507] parameter declaration becomes local in R2P with formal parameter declaration list [C:/Users/Cheng Hsuan Hong/Desktop/DCIC/Rectangular_To_Polar_Conversion/Rectangular_To_Polar_Conversion.srcs/sources_1/new/R2P.v:237]
+WARNING: [Synth 8-2507] parameter declaration becomes local in R2P with formal parameter declaration list [C:/Users/Cheng Hsuan Hong/Desktop/DCIC/Rectangular_To_Polar_Conversion/Rectangular_To_Polar_Conversion.srcs/sources_1/new/R2P.v:238]
+WARNING: [Synth 8-2507] parameter declaration becomes local in R2P with formal parameter declaration list [C:/Users/Cheng Hsuan Hong/Desktop/DCIC/Rectangular_To_Polar_Conversion/Rectangular_To_Polar_Conversion.srcs/sources_1/new/R2P.v:239]
+WARNING: [Synth 8-2507] parameter declaration becomes local in R2P with formal parameter declaration list [C:/Users/Cheng Hsuan Hong/Desktop/DCIC/Rectangular_To_Polar_Conversion/Rectangular_To_Polar_Conversion.srcs/sources_1/new/R2P.v:240]
+WARNING: [Synth 8-2507] parameter declaration becomes local in R2P with formal parameter declaration list [C:/Users/Cheng Hsuan Hong/Desktop/DCIC/Rectangular_To_Polar_Conversion/Rectangular_To_Polar_Conversion.srcs/sources_1/new/R2P.v:241]
+WARNING: [Synth 8-2507] parameter declaration becomes local in R2P with formal parameter declaration list [C:/Users/Cheng Hsuan Hong/Desktop/DCIC/Rectangular_To_Polar_Conversion/Rectangular_To_Polar_Conversion.srcs/sources_1/new/R2P.v:242]
+WARNING: [Synth 8-2507] parameter declaration becomes local in R2P with formal parameter declaration list [C:/Users/Cheng Hsuan Hong/Desktop/DCIC/Rectangular_To_Polar_Conversion/Rectangular_To_Polar_Conversion.srcs/sources_1/new/R2P.v:243]
+WARNING: [Synth 8-2507] parameter declaration becomes local in R2P with formal parameter declaration list [C:/Users/Cheng Hsuan Hong/Desktop/DCIC/Rectangular_To_Polar_Conversion/Rectangular_To_Polar_Conversion.srcs/sources_1/new/R2P.v:244]
+WARNING: [Synth 8-2507] parameter declaration becomes local in R2P with formal parameter declaration list [C:/Users/Cheng Hsuan Hong/Desktop/DCIC/Rectangular_To_Polar_Conversion/Rectangular_To_Polar_Conversion.srcs/sources_1/new/R2P.v:245]
+WARNING: [Synth 8-2507] parameter declaration becomes local in R2P with formal parameter declaration list [C:/Users/Cheng Hsuan Hong/Desktop/DCIC/Rectangular_To_Polar_Conversion/Rectangular_To_Polar_Conversion.srcs/sources_1/new/R2P.v:246]
+WARNING: [Synth 8-2507] parameter declaration becomes local in R2P with formal parameter declaration list [C:/Users/Cheng Hsuan Hong/Desktop/DCIC/Rectangular_To_Polar_Conversion/Rectangular_To_Polar_Conversion.srcs/sources_1/new/R2P.v:247]
+WARNING: [Synth 8-2507] parameter declaration becomes local in R2P with formal parameter declaration list [C:/Users/Cheng Hsuan Hong/Desktop/DCIC/Rectangular_To_Polar_Conversion/Rectangular_To_Polar_Conversion.srcs/sources_1/new/R2P.v:248]
+WARNING: [Synth 8-2507] parameter declaration becomes local in R2P with formal parameter declaration list [C:/Users/Cheng Hsuan Hong/Desktop/DCIC/Rectangular_To_Polar_Conversion/Rectangular_To_Polar_Conversion.srcs/sources_1/new/R2P.v:249]
+WARNING: [Synth 8-2507] parameter declaration becomes local in R2P with formal parameter declaration list [C:/Users/Cheng Hsuan Hong/Desktop/DCIC/Rectangular_To_Polar_Conversion/Rectangular_To_Polar_Conversion.srcs/sources_1/new/R2P.v:250]
+WARNING: [Synth 8-2507] parameter declaration becomes local in R2P with formal parameter declaration list [C:/Users/Cheng Hsuan Hong/Desktop/DCIC/Rectangular_To_Polar_Conversion/Rectangular_To_Polar_Conversion.srcs/sources_1/new/R2P.v:251]
+WARNING: [Synth 8-2507] parameter declaration becomes local in R2P with formal parameter declaration list [C:/Users/Cheng Hsuan Hong/Desktop/DCIC/Rectangular_To_Polar_Conversion/Rectangular_To_Polar_Conversion.srcs/sources_1/new/R2P.v:252]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1127.457 ; gain = 38.609
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'R2P' [C:/Users/Cheng Hsuan Hong/Desktop/DCIC/Rectangular_To_Polar_Conversion/Rectangular_To_Polar_Conversion.srcs/sources_1/new/R2P.v:19]
+	Parameter WIDTH bound to: 31 - type: integer 
+	Parameter angle_ bound to: 5898240 - type: integer 
+	Parameter angle_0 bound to: 2949120 - type: integer 
+	Parameter angle_1 bound to: 1740967 - type: integer 
+	Parameter angle_2 bound to: 919879 - type: integer 
+	Parameter angle_3 bound to: 466945 - type: integer 
+	Parameter angle_4 bound to: 234379 - type: integer 
+	Parameter angle_5 bound to: 117304 - type: integer 
+	Parameter angle_6 bound to: 58666 - type: integer 
+	Parameter angle_7 bound to: 29335 - type: integer 
+	Parameter angle_8 bound to: 14668 - type: integer 
+	Parameter angle_9 bound to: 7334 - type: integer 
+	Parameter angle_10 bound to: 3667 - type: integer 
+	Parameter angle_11 bound to: 1833 - type: integer 
+	Parameter angle_12 bound to: 917 - type: integer 
+	Parameter angle_13 bound to: 458 - type: integer 
+	Parameter angle_14 bound to: 229 - type: integer 
+	Parameter angle_15 bound to: 115 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'R2P' (1#1) [C:/Users/Cheng Hsuan Hong/Desktop/DCIC/Rectangular_To_Polar_Conversion/Rectangular_To_Polar_Conversion.srcs/sources_1/new/R2P.v:19]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1184.742 ; gain = 95.895
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1184.742 ; gain = 95.895
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1184.742 ; gain = 95.895
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.034 . Memory (MB): peak = 1184.742 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Cheng Hsuan Hong/Desktop/DCIC/Rectangular_To_Polar_Conversion/Rectangular_To_Polar_Conversion.srcs/constrs_1/new/timing_constraint.xdc]
+Finished Parsing XDC File [C:/Users/Cheng Hsuan Hong/Desktop/DCIC/Rectangular_To_Polar_Conversion/Rectangular_To_Polar_Conversion.srcs/constrs_1/new/timing_constraint.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Cheng Hsuan Hong/Desktop/DCIC/Rectangular_To_Polar_Conversion/Rectangular_To_Polar_Conversion.srcs/constrs_1/new/timing_constraint.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/R2P_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/R2P_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1298.879 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 1298.879 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 1298.879 ; gain = 210.031
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 1298.879 ; gain = 210.031
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 1298.879 ; gain = 210.031
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1298.879 ; gain = 210.031
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 18    
+	   3 Input   32 Bit       Adders := 31    
+	   5 Input   32 Bit       Adders := 1     
+	   2 Input    4 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 51    
+	                9 Bit    Registers := 1     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 18    
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 51    
+	   2 Input   25 Bit        Muxes := 1     
+	   2 Input   24 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 1298.879 ; gain = 210.031
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:33 ; elapsed = 00:00:33 . Memory (MB): peak = 1298.879 ; gain = 210.031
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:34 ; elapsed = 00:00:35 . Memory (MB): peak = 1298.879 ; gain = 210.031
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:37 ; elapsed = 00:00:37 . Memory (MB): peak = 1316.184 ; gain = 227.336
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:41 ; elapsed = 00:00:41 . Memory (MB): peak = 1329.059 ; gain = 240.211
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:41 ; elapsed = 00:00:41 . Memory (MB): peak = 1329.059 ; gain = 240.211
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:42 ; elapsed = 00:00:42 . Memory (MB): peak = 1329.059 ; gain = 240.211
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:42 ; elapsed = 00:00:42 . Memory (MB): peak = 1329.059 ; gain = 240.211
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:42 ; elapsed = 00:00:42 . Memory (MB): peak = 1329.059 ; gain = 240.211
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:42 ; elapsed = 00:00:42 . Memory (MB): peak = 1329.059 ; gain = 240.211
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |   374|
+|3     |LUT1   |   181|
+|4     |LUT2   |   411|
+|5     |LUT3   |   787|
+|6     |LUT4   |    24|
+|7     |LUT5   |  1199|
+|8     |LUT6   |   837|
+|9     |FDCE   |  1502|
+|10    |IBUF   |    67|
+|11    |OBUF   |    42|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:42 ; elapsed = 00:00:42 . Memory (MB): peak = 1329.059 ; gain = 240.211
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:31 ; elapsed = 00:00:39 . Memory (MB): peak = 1329.059 ; gain = 126.074
+Synthesis Optimization Complete : Time (s): cpu = 00:00:42 ; elapsed = 00:00:42 . Memory (MB): peak = 1329.059 ; gain = 240.211
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.050 . Memory (MB): peak = 1342.148 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 374 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'R2P' is not ideal for floorplanning, since the cellview 'R2P' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1342.148 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+17 Infos, 18 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:51 ; elapsed = 00:00:53 . Memory (MB): peak = 1342.148 ; gain = 253.301
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Cheng Hsuan Hong/Desktop/DCIC/Rectangular_To_Polar_Conversion/Rectangular_To_Polar_Conversion.runs/synth_1/R2P.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file R2P_utilization_synth.rpt -pb R2P_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Dec 31 00:39:54 2024...

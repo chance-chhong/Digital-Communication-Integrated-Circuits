@@ -1,8 +1,0 @@
-create_clock -period 50.000 -name clk -waveform {0.000 25.000} [get_ports -filter { NAME =~  "*clk*" && DIRECTION == "IN" }]
-set_input_delay -clock [get_clocks *clk*] -add_delay 25.000 [list [get_ports -filter { NAME =~  "*in_valid*" && DIRECTION == "IN" }] [get_ports -filter { NAME =~  "*x_in*" && DIRECTION == "IN" }]]
-set_input_delay -clock [get_clocks *clk*] -add_delay 25.000 [get_ports -filter { NAME =~  "*y_in*" && DIRECTION == "IN" }]
-set_input_delay -clock [get_clocks *clk*] -add_delay 25.000 [get_ports -filter { NAME =~  "*in_valid*" && DIRECTION == "IN" }]
-set_output_delay -clock [get_clocks *clk*] -add_delay 0.000 [get_ports -filter { NAME =~  "*angle*" && DIRECTION == "OUT" }]
-set_output_delay -clock [get_clocks *clk*] -add_delay 0.000 [get_ports -filter { NAME =~  "*radius*" && DIRECTION == "OUT" }]
-set_output_delay -clock [get_clocks *clk*] -add_delay 0.000 [get_ports -filter { NAME =~  "*out_valid*" && DIRECTION == "OUT" }]
-set_clock_uncertainty 5.000 [get_pins -hierarchical *clk*]

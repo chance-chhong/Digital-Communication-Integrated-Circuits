@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Dec 30 22:09:05 2024
+# Process ID: 11340
+# Current directory: C:/Users/Cheng Hsuan Hong/Desktop/DCIC/Rectangular_To_Polar_Conversion/Rectangular_To_Polar_Conversion.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/Cheng Hsuan Hong/Desktop/DCIC/Rectangular_To_Polar_Conversion/Rectangular_To_Polar_Conversion.sim/sim_1/behav/xsim/xsim.dir/tb_R2P_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/Cheng Hsuan Hong/Desktop/DCIC/Rectangular_To_Polar_Conversion/Rectangular_To_Polar_Conversion.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/Cheng Hsuan Hong/Desktop/DCIC/Rectangular_To_Polar_Conversion/Rectangular_To_Polar_Conversion.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/Cheng -notrace
